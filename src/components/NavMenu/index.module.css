@@ -7,16 +7,16 @@
   padding-left: 50px;
 }
 
-
 .navMenu div {
   display: flex;
   flex-direction: row;
   gap: 10px;
+  padding-bottom: 20px;
 
   font-size: 17px;
-  font-family: 'Alata';
+  font-family: "Alata";
   font-weight: 400;
-  color: #78747A;
+  color: #78747a;
 }
 
 .navMenu img {

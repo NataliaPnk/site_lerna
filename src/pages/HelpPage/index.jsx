@@ -1,8 +1,11 @@
 import React from 'react'
+import ProfileContainer from '../../components/ProfileContainer'
 
 export default function HelpPage() {
   
   return (
-    <div>HelpPage</div>
+    <div>
+      <ProfileContainer />
+      </div>
   )
 }

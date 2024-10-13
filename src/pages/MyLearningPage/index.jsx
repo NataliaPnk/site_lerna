@@ -1,8 +1,11 @@
 import React from 'react'
+import MyLearningContainer from '../../components/MyLearningContainer'
 
-export default function MyLearningPage() {
+export default function MyLearningPage({learningCards}) {
   
   return (
-    <div>MyLearningPage</div>
+    <div>
+      <MyLearningContainer learningCards={learningCards}/>
+      </div>
   )
 }

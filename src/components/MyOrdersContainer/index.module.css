@@ -1,0 +1,39 @@
+.myOrdersContainer {
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  min-height: 840px;
+
+  background-color: #e0e1e2;
+
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 50px;
+}
+
+.rightPart {
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 40px;
+  padding-left: 60px;
+}
+
+.rightPart h2 {
+  font-size: 34px;
+  font-family: "Alata";
+  font-weight: 600;
+  color: #201926;
+
+  padding-bottom: 20px;
+}
+
+
+.orderCardsWrapper {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+
+  padding-top: 10px;
+  padding-right: 30px;
+}

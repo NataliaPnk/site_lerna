@@ -18,10 +18,14 @@ export default function NavMenu() {
             <img src={leftPartIcon01} /> <p>My learning</p>{" "}
           </div>
         </Link>
-        <div>
-          {" "}
-          <img src={leftPartIcon02} /> <p>My orders</p>{" "}
-        </div>
+
+        <Link to="/orders">
+          <div>
+            {" "}
+            <img src={leftPartIcon02} /> <p>My orders</p>{" "}
+          </div>
+        </Link>
+
         <div>
           {" "}
           <img src={leftPartIcon03} /> <p>My tests</p>{" "}

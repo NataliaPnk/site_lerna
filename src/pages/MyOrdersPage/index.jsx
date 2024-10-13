@@ -1,8 +1,11 @@
 import React from 'react'
+import MyOrdersContainer from '../../components/MyOrdersContainer'
 
-export default function MyOrdersPage() {
+export default function MyOrdersPage({orderCards}) {
   
   return (
-    <div>MyOrdersPage</div>
+    <div>
+      <MyOrdersContainer orderCards={orderCards}/>
+    </div>
   )
 }
