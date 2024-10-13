@@ -1,0 +1,134 @@
+.profileCardOuterContainer {
+  max-width: 800px;
+  min-width: 600px;
+  min-height: 640px;
+
+  background-color: #ffffff;
+  border-radius: 15px;
+
+
+}
+
+.profileCardInnerContainer {
+  padding: 20px 25px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.profileCardInnerContainer p {
+  font-size: 17px;
+  font-family: "Alata";
+  font-weight: 500;
+  color: #201926;
+}
+
+.photoContentWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.photoEditPart {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-left: 20px;
+}
+
+.photoEditPart h3 {
+  font-size: 22px;
+  font-family: "Alata";
+  font-weight: 500;
+  color: #201926;
+}
+
+.photoEditPart button {
+  max-width: 285px;
+  min-height: 55px;
+  padding: 15px 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  border: none;
+  border-radius: 10px;
+
+  font-size: 17px;
+  font-family: "Alata";
+  font-weight: 500;
+  color: #713ae0;
+}
+
+/* INPUTS and REST */
+
+.inputWrapper {
+  max-width: 550px;
+  min-height: 55px;
+
+  border: solid 1px #78747a;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inputWrapper input {
+  max-width: 500px;
+  min-height: 40px;
+  font-size: 17px;
+  font-family: "Alata";
+  font-weight: 500;
+  color: #201926;
+
+  border: none;
+
+  padding-left: 20px;
+}
+
+.inputWrapper img {
+  padding-right: 20px;
+}
+
+.buttonAdd {
+  max-width: 190px;
+  min-height: 45px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20px;
+  gap: 10px;
+
+  border: solid 1px #78747a;
+  border-radius: 30px;
+
+  font-size: 15px;
+  font-family: "Alata";
+  font-weight: 500;
+  color: #201926;
+}
+
+.buttonSubmit {
+  max-width: 590px;
+  min-height: 55px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  border: solid 1px #78747a;
+  border-radius: 30px;
+
+  font-size: 17px;
+  font-family: "Alata";
+  font-weight: 600;
+  color: #FFFFFF;
+
+  background-color: #29004D;
+}

@@ -1,0 +1,105 @@
+.myLearningCard {
+  min-width: 950px;
+  width: auto;
+  min-height: 170px;
+
+  background-color: #ffffff;
+  border-radius: 15px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  display: flex;
+  flex-direction: column;
+}
+
+.upPart {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+
+  position: relative;
+}
+
+.upPart h3 {
+  font-size: 20px;
+  font-family: 'Alata';
+  font-weight: 500;
+  color: #201926;
+}
+
+.upPart p {
+  font-size: 15px;
+  font-family: 'Alata';
+  font-weight: 400;
+  color: #78747A;
+
+  padding-top: 10px;
+}
+
+.upPart img {
+  width: 70px;
+  height: 70px;
+}
+
+.titleContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.upPart button {
+  position: absolute;
+  right: 30px;
+
+  max-width: 220px;
+  min-height: 55px;
+  padding: 15px 20px;
+
+  background-color: #29004D;
+  border-radius: 10px;
+  border: none;
+
+  font-size: 17px;
+  font-family: 'Alata';
+  font-weight: 500;
+  color: #FFFFFF ;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+  padding-top: 20px;
+  padding-left: 20px;
+
+  font-size: 13px;
+  font-family: 'Alata';
+  font-weight: 400;
+  color: #78747A;
+}
+
+.details span {
+  font-weight: 600;
+  color: #201926;
+}
+
+.durationPart {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+
+  padding-left: 20px;
+  padding-right: 20px;
+
+  font-size: 15px;
+  font-family: 'Alata';
+  font-weight: 400;
+  color: #201926;
+}
+
+

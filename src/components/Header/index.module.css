@@ -1,0 +1,109 @@
+.header {
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  min-height: 85px;
+
+  background-color: #FFFFFF;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.header img {
+  max-width: 135px;
+  height: auto;
+  min-height: 35px;
+}
+
+.rightSite {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  gap: 40px;
+}
+
+.catalogWrapper {
+  max-width: 290px;
+  height: auto;
+  min-height: 55px;
+
+  background-color: #efefef;
+
+  border: none;
+  border-radius: 30px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-right: 2px;
+  padding-left: 20px;
+
+  font-size: 17px;
+  font-family: "Alata";
+  font-weight: 400;
+  color: #49454d;
+}
+
+.buttonMyLearning {
+  max-width: 185px;
+  height: auto;
+  min-height: 50px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #ffffff;
+
+  border: none;
+  border-radius: 30px;
+
+  padding: 10px;
+  margin-left: 15px;
+}
+
+.buttonMyLearning img {
+  max-width: 20px;
+  height: auto;
+  min-height: 20px;
+
+  margin: 5px;
+}
+
+.questionMark {
+  max-width: 20px;
+  max-height: 20px;
+  padding: 5px;
+}
+
+.buttonTokens {
+  border: solid 3px #4c07df;
+  border-radius: 30px;
+
+  max-width: 160px;
+  max-height: 50px;
+  padding: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 15px;
+  font-family: "Alata";
+  font-weight: 400;
+  color: #ee2c72;
+}
+
+.buttonTokens img {
+  padding: 10px 5px;
+}

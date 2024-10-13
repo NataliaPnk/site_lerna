@@ -1,0 +1,41 @@
+.profileContainer {
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  min-height: 840px;
+
+  background-color: #e0e1e2;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.rightPart {
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 40px;
+  padding-left: 60px;
+}
+
+.backToProfile {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+  padding-bottom: 20px;
+
+  font-size: 17px;
+  font-family: "Alata";
+  font-weight: 300;
+  color: #78747a;
+}
+
+.profileContainer h2 {
+  font-size: 28px;
+  font-family: "Alata";
+  font-weight: 600;
+  color: #201926;
+
+  padding-bottom: 20px;
+}

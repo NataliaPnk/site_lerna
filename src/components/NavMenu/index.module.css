@@ -1,0 +1,25 @@
+.navMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  padding-top: 60px;
+  padding-left: 50px;
+}
+
+
+.navMenu div {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+  font-size: 17px;
+  font-family: 'Alata';
+  font-weight: 400;
+  color: #78747A;
+}
+
+.navMenu img {
+  max-width: 25px;
+  min-height: 25px;
+}
