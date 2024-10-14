@@ -26,10 +26,13 @@ export default function NavMenu() {
           </div>
         </Link>
 
-        <div>
-          {" "}
-          <img src={leftPartIcon03} /> <p>My tests</p>{" "}
-        </div>
+        <Link to="/tests">
+          <div>
+            {" "}
+            <img src={leftPartIcon03} /> <p>My tests</p>{" "}
+          </div>
+        </Link>
+
         <div>
           {" "}
           <img src={leftPartIcon04} /> <p>Bonus tokens</p>{" "}
