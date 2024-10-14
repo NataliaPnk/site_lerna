@@ -33,14 +33,18 @@ export default function NavMenu() {
           </div>
         </Link>
 
-        <div>
-          {" "}
-          <img src={leftPartIcon04} /> <p>Bonus tokens</p>{" "}
-        </div>
+        <Link to="/bonus">
+          <div>
+            {" "}
+            <img src={leftPartIcon04} /> <p>Bonus tokens</p>{" "}
+          </div>
+        </Link>
+
         <div>
           {" "}
           <img src={leftPartIcon05} /> <p>Referral program</p>{" "}
         </div>
+
         <Link to="/">
           <div>
             {" "}

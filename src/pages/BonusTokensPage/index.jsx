@@ -1,8 +1,12 @@
 import React from 'react'
+import BonusProgramSection from '../../components/BonusProgramSection'
+
 
 export default function BonusTokensPage() {
   
   return (
-    <div>BonusTokensPage</div>
+    <div>
+        <BonusProgramSection />
+    </div>
   )
 }

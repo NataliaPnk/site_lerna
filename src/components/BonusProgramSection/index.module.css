@@ -1,0 +1,73 @@
+.bonusProgramSection {
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  min-height: 840px;
+
+  background-color: #e0e1e2;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.rightPart {
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 40px;
+  padding-left: 60px;
+}
+
+.rightPart h2 {
+  font-size: 34px;
+  font-family: "Alata";
+  font-weight: 600;
+  color: #201926;
+
+  padding-bottom: 30px;
+}
+
+.bonusAccountBox {
+  max-width: 320px;
+  min-height: 150px;
+  background-image: url("../BonusProgramSection/media/rectangleBonusBox.png");
+
+  position: relative;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.bonusAccountBox p {
+  font-size: 15px;
+  font-family: "Alata";
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.bonusAccountBox h3 {
+  font-size: 28px;
+  font-family: "Alata";
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.bonusAccountBox span {
+  font-size: 17px;
+  font-family: "Alata";
+  font-weight: 500;
+  color: #ffffff;
+  opacity: 65px;
+}
+
+.titlePartDown {
+  font-size: 24px;
+  font-family: "Alata";
+  font-weight: 600;
+  color: #201926;
+
+  padding-top: 30px;
+}

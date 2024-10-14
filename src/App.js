@@ -11,6 +11,7 @@ import MyOrdersPage from "./pages/MyOrdersPage";
 import ordersDataCards from "./data/ordersDataCards";
 import MyTestsPage from "./pages/MyTestsPage";
 import testsDataCards from "./data/testsDataCards";
+import BonusTokensPage from "./pages/BonusTokensPage";
 
 function App() {
   const [ learningCards, setLearningCards ] = useState(learningDataCards);
@@ -31,9 +32,13 @@ function App() {
           path="/orders"
           element={<MyOrdersPage orderCards={orderCards} />}
         />
-                <Route
+        <Route
           path="/tests"
           element={<MyTestsPage />}
+        />
+        <Route
+          path="/bonus"
+          element={<BonusTokensPage />}
         />
       </Routes>
   </Context.Provider>
