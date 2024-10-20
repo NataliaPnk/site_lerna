@@ -1,0 +1,74 @@
+.referralContainer02 {
+  min-width: 950px;
+  min-height: 380px;
+
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+
+  display: flex;
+  flex-direction: column;
+  padding: 60px 40px;
+}
+
+.referralContainer02 h3 {
+  font-size: 28px;
+  font-family: "Alata";
+  font-weight: 600;
+  color: #201926;
+
+  padding-bottom: 20px;
+}
+
+.referralContainer02 > div {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+.referralContainer02 > div > div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.referralContainer02 > div > div > div > h4 {
+  font-size: 17px;
+  font-family: "Alata";
+  font-weight: 600;
+  color: #201926;
+
+  padding-bottom: 10px;
+}
+
+.referralContainer02 > div > div > div > p {
+  font-size: 15px;
+  font-family: "Alata";
+  font-weight: 400;
+  color: #78747a;
+}
+
+.referralContainer02 > div > div > img {
+  width: 45px;
+  height: 45px;
+}
+
+.referralContainer02 span {
+  max-width: 950px;
+  min-height: 1px;
+  background-color: #e5e5e5;
+  margin-bottom: 30px;
+}
+
+.referralContainer02 ul {
+  padding-left: 20px;
+  line-height: 30px;
+}
+
+.referralContainer02 li {
+  font-size: 15px;
+  font-family: "Alata";
+  font-weight: 400;
+  color: #78747a;
+}

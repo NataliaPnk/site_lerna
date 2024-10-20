@@ -1,0 +1,71 @@
+.referralContainer01 {
+  min-width: 950px;
+  min-height: 380px;
+
+  background-color: #eaddff;
+  border-radius: 15px;
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.referralContainer01 > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+
+  padding-left: 30px;
+}
+
+.referralContainer01 > div > h3 {
+  font-size: 28px;
+  font-family: "Alata";
+  font-weight: 600;
+  color: #201926;
+}
+
+.referralContainer01 > div > div {
+  min-width: 500px;
+  min-height: 60px;
+
+  background-color: #ffffff;
+  border-radius: 10px;
+  position: relative;
+
+  font-size: 17px;
+  font-family: "Alata";
+  font-weight: 500;
+  color: #201926;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.referralContainer01 > div > div > button {
+  min-width: 180px;
+  min-height: 55px;
+
+  background-color: #713ae0;
+  border: none;
+  border-radius: 10px;
+
+  font-size: 17px;
+  font-family: "Alata";
+  font-weight: 500;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+
+  position: absolute;
+  right: 1%;
+}
+
+.referralContainer01 > img {
+  max-width: 380px;
+  min-height: 380px;
+}

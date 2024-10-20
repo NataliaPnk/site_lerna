@@ -1,0 +1,28 @@
+.bonusProgramCard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 50px;
+
+  border-radius: 15px;
+  position: relative;
+  padding: 20px 15px;
+
+  background-color: #ffffff;
+}
+
+.bonusProgramCard > div > div {
+  display: flex;
+  gap: 20px;
+}
+
+.bonusProgramCard > div > img {
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+}
+
+.bonusProgramCard p {
+  font-family: "Alata";
+  color: #201926;
+  line-height: 25px;
+}

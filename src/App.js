@@ -12,16 +12,19 @@ import ordersDataCards from "./data/ordersDataCards";
 import MyTestsPage from "./pages/MyTestsPage";
 import testsDataCards from "./data/testsDataCards";
 import BonusTokensPage from "./pages/BonusTokensPage";
+import bonusDataCards from "./data/bonusDataCards";
+import ReferralProgramPage from "./pages/ReferralProgramPage";
 
 function App() {
   const [ learningCards, setLearningCards ] = useState(learningDataCards);
   const [ orderCards, setOrderCards ] = useState(ordersDataCards);
   const [ tests, setTests ] = useState(testsDataCards)
+  const [ bonus, setBonus ] = useState(bonusDataCards)
 
   return (
     <div>
       <Header />
-  <Context.Provider value={{tests}}>
+  <Context.Provider value={{tests, bonus}}>
       <Routes>
         <Route path="/" element={<HelpPage />} />
         <Route
@@ -40,6 +43,11 @@ function App() {
           path="/bonus"
           element={<BonusTokensPage />}
         />
+        <Route
+        path="/referral_program"
+        element={<ReferralProgramPage />}
+        />
+
       </Routes>
   </Context.Provider>
     </div>
